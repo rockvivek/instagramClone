@@ -11,7 +11,6 @@
         <!--Camera View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="CameraViewController" id="BYZ-38-t0r" customClass="CameraViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -21,6 +20,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="cNv-80-7g0"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="96" y="1564"/>
         </scene>
@@ -28,7 +28,7 @@
         <scene sceneID="geF-KY-aYJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6oL-R4-lNc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="PpW-Le-VOq"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="plus" catalog="system" id="PpW-Le-VOq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="R21-yp-N2H">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -49,15 +49,17 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="sCw-Nf-BmW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="abZ-Qa-o0v">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="6oL-R4-lNc" kind="relationship" relationship="viewControllers" id="ZVC-vE-cG6"/>
                         <segue destination="chd-mx-JsI" kind="relationship" relationship="viewControllers" id="8Cx-LS-E1y"/>
                         <segue destination="uT2-Ek-GUN" kind="relationship" relationship="viewControllers" id="JOp-Cl-oPE"/>
-                        <segue destination="Z3e-Wc-pre" kind="relationship" relationship="viewControllers" id="D0p-aB-t3c"/>
-                        <segue destination="2ep-hO-cmf" kind="relationship" relationship="viewControllers" id="d6d-MT-h41"/>
+                        <segue destination="6oL-R4-lNc" kind="relationship" relationship="viewControllers" id="aoV-r5-sIG"/>
+                        <segue destination="Z3e-Wc-pre" kind="relationship" relationship="viewControllers" id="Bqc-Yg-9Qv"/>
+                        <segue destination="2ep-hO-cmf" kind="relationship" relationship="viewControllers" id="oi8-nU-vqb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxI-bS-oSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -68,7 +70,7 @@
         <scene sceneID="IA1-7H-jRe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uT2-Ek-GUN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="5Ek-ri-6k7"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="globe" catalog="system" id="5Ek-ri-6k7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eDt-ce-pIu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -87,7 +89,7 @@
         <scene sceneID="VyW-XH-Y6i">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="chd-mx-JsI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="N7K-3y-1zQ"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="house.fill" catalog="system" id="N7K-3y-1zQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WaI-Jq-klJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -106,7 +108,7 @@
         <scene sceneID="W2m-uz-IbM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2ep-hO-cmf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="I6T-ba-kxa"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="person.fill" catalog="system" id="I6T-ba-kxa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wg5-Vb-esK">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -125,7 +127,7 @@
         <scene sceneID="hR2-qF-M0T">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z3e-Wc-pre" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="H3I-iq-eyC"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="bell.fill" catalog="system" id="H3I-iq-eyC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZVb-AK-1qR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -143,7 +145,6 @@
         <!--Explore View Controller-->
         <scene sceneID="0ZT-0s-AVQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A7R-kR-YUd" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ExploreViewController" id="zWI-hV-aBh" customClass="ExploreViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z48-V4-8AR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -153,13 +154,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="zjK-Xr-qrR"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7R-kR-YUd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-630" y="1564"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="4sd-Hg-RB3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="h2n-uf-cO8" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ProfileViewController" id="3ep-Mp-bDH" customClass="ProfileViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AEE-gU-CjP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -169,13 +170,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="4Av-VU-woM"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2n-uf-cO8" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1564" y="1564"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="qnl-AK-548">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VjC-Wc-eBx" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="HomeViewController" id="Wba-4m-URT" customClass="HomeViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QLR-VD-8TH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -185,13 +186,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="cye-9r-Ail" customClass="HomeView"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VjC-Wc-eBx" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1349" y="1564"/>
         </scene>
         <!--Notification View Controller-->
         <scene sceneID="KDm-II-Tu0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w9k-PC-85U" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="NotificationViewController" id="fzM-9U-iKS" customClass="NotificationViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="why-yf-2by">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -201,11 +202,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="1iL-d4-ReO"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w9k-PC-85U" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="841" y="1564"/>
         </scene>
     </scenes>
     <resources>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
+        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
