@@ -24,11 +24,11 @@
             </objects>
             <point key="canvasLocation" x="96" y="1564"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="geF-KY-aYJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6oL-R4-lNc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="plus" catalog="system" id="PpW-Le-VOq"/>
+                    <tabBarItem key="tabBarItem" title="" image="plus" catalog="system" id="PpW-Le-VOq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="R21-yp-N2H">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -66,11 +66,11 @@
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="77.678571428571431"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="IA1-7H-jRe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uT2-Ek-GUN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="magnifyingglass" catalog="system" id="5Ek-ri-6k7"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="5Ek-ri-6k7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eDt-ce-pIu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -85,11 +85,11 @@
             </objects>
             <point key="canvasLocation" x="-630" y="830"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="VyW-XH-Y6i">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="chd-mx-JsI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="house" catalog="system" id="N7K-3y-1zQ"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="N7K-3y-1zQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WaI-Jq-klJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -104,11 +104,11 @@
             </objects>
             <point key="canvasLocation" x="-1348" y="830"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="W2m-uz-IbM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2ep-hO-cmf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="person" catalog="system" id="I6T-ba-kxa"/>
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="I6T-ba-kxa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wg5-Vb-esK">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -123,11 +123,11 @@
             </objects>
             <point key="canvasLocation" x="1565" y="830"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="hR2-qF-M0T">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z3e-Wc-pre" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="heart" catalog="system" id="H3I-iq-eyC"/>
+                    <tabBarItem key="tabBarItem" title="" image="heart" catalog="system" id="H3I-iq-eyC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZVb-AK-1qR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

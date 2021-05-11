@@ -64,7 +64,7 @@ final class SettingViewController: UIViewController {
                         vc.modalPresentationStyle = .fullScreen
                         self.present(vc, animated: true) {
                             self.navigationController?.popViewController(animated: false)
-                            self.tabBarController?.selectedIndex = 0
+                             self.tabBarController?.selectedIndex = 0
                         }
                     }
                     else{
@@ -73,6 +73,10 @@ final class SettingViewController: UIViewController {
                 }
             })
         })
+        
+        alert.popoverPresentationController?.sourceView = settingTableView
+        alert.popoverPresentationController?.sourceRect = settingTableView.bounds
+        
     }
 }
 
