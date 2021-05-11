@@ -27,11 +27,12 @@
 		31A5521426491B4E0050C2B2 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5521326491B4E0050C2B2 /* SearchResultViewController.swift */; };
 		31A5521726491B630050C2B2 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5521626491B630050C2B2 /* PostEditorViewController.swift */; };
 		31A5521A26491B7B0050C2B2 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5521926491B7B0050C2B2 /* PublishPostViewController.swift */; };
-		31A5523A2649361E0050C2B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31A552392649361E0050C2B2 /* GoogleService-Info.plist */; };
 		31A5523E264941B00050C2B2 /* DatabadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5523D264941B00050C2B2 /* DatabadeManager.swift */; };
 		31A552412649429E0050C2B2 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A552402649429E0050C2B2 /* AuthManager.swift */; };
 		31EF1BEB264943390071F996 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF1BEA264943390071F996 /* StorageManager.swift */; };
 		31EF1C0226494E6F0071F996 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF1C0126494E6F0071F996 /* Extension.swift */; };
+		31EF1C062649BB8C0071F996 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF1C052649BB8C0071F996 /* GlobalVariables.swift */; };
+		31EF1C102649E5FF0071F996 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31EF1C0F2649E5FF0071F996 /* GoogleService-Info.plist */; };
 		9ECB632D71C53DE329E675EB /* Pods_InstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E40512F3EEF36626D57987 /* Pods_InstagramClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,11 +59,12 @@
 		31A5521326491B4E0050C2B2 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		31A5521626491B630050C2B2 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		31A5521926491B7B0050C2B2 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
-		31A552392649361E0050C2B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		31A5523D264941B00050C2B2 /* DatabadeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabadeManager.swift; sourceTree = "<group>"; };
 		31A552402649429E0050C2B2 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		31EF1BEA264943390071F996 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		31EF1C0126494E6F0071F996 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		31EF1C052649BB8C0071F996 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		31EF1C0F2649E5FF0071F996 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		435329A660C7F3157A5FDDF8 /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
 		B0E40512F3EEF36626D57987 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD9D1EC7F6336B1E1D942D0 /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +117,7 @@
 				31A551EC264917880050C2B2 /* Views */,
 				31A551EB264917720050C2B2 /* Controllers */,
 				31A551E42649162E0050C2B2 /* Info.plist */,
-				31A552392649361E0050C2B2 /* GoogleService-Info.plist */,
+				31EF1C0F2649E5FF0071F996 /* GoogleService-Info.plist */,
 			);
 			path = InstagramClone;
 			sourceTree = "<group>";
@@ -141,6 +143,7 @@
 		31A551ED2649178F0050C2B2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				31EF1C052649BB8C0071F996 /* GlobalVariables.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,8 +200,8 @@
 		31EF1BFF26494E510071F996 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				31A5523D264941B00050C2B2 /* DatabadeManager.swift */,
 				31A552402649429E0050C2B2 /* AuthManager.swift */,
+				31A5523D264941B00050C2B2 /* DatabadeManager.swift */,
 				31EF1BEA264943390071F996 /* StorageManager.swift */,
 			);
 			path = Firebase;
@@ -271,9 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A5523A2649361E0050C2B2 /* GoogleService-Info.plist in Resources */,
 				31A551E32649162E0050C2B2 /* LaunchScreen.storyboard in Resources */,
 				31A551E02649162E0050C2B2 /* Assets.xcassets in Resources */,
+				31EF1C102649E5FF0071F996 /* GoogleService-Info.plist in Resources */,
 				31A551DE2649162C0050C2B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +336,7 @@
 				31A551F126491A350050C2B2 /* ExploreViewController.swift in Sources */,
 				31A551F426491A490050C2B2 /* CameraViewController.swift in Sources */,
 				31A551F726491A600050C2B2 /* NotificationViewController.swift in Sources */,
+				31EF1C062649BB8C0071F996 /* GlobalVariables.swift in Sources */,
 				31A5521726491B630050C2B2 /* PostEditorViewController.swift in Sources */,
 				31EF1BEB264943390071F996 /* StorageManager.swift in Sources */,
 				31A5520526491AE80050C2B2 /* PostViewController.swift in Sources */,

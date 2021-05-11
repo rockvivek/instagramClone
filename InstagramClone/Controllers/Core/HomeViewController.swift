@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         handleUserNotAuthentication()
+        
     }
 
     public func handleUserNotAuthentication(){

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>769609070079-5uvbapf191pdeujs4h144hlgubpnpa6s.apps.googleusercontent.com</string>
+	<string>704108385043-p4mffio3gc12sm7gb202ri7idctjn5au.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.769609070079-5uvbapf191pdeujs4h144hlgubpnpa6s</string>
+	<string>com.googleusercontent.apps.704108385043-p4mffio3gc12sm7gb202ri7idctjn5au</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCTm_YrP7fLBP66QQRl7g6er210WPc1Uq8</string>
+	<string>AIzaSyCIgdz3z7P2ch47wLFu0b5k0VEhMIrCVnA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>769609070079</string>
+	<string>704108385043</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.vivek.InstagramClone</string>
 	<key>PROJECT_ID</key>
-	<string>instagramclone-d0282</string>
+	<string>instagramclone-98b27</string>
 	<key>STORAGE_BUCKET</key>
-	<string>instagramclone-d0282.appspot.com</string>
+	<string>instagramclone-98b27.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:769609070079:ios:0cc508dd83d4b506af23ca</string>
+	<string>1:704108385043:ios:84bb4e14773f4b752c80e6</string>
 </dict>
 </plist>

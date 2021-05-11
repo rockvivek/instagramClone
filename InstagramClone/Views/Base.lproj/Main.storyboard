@@ -70,7 +70,7 @@
         <scene sceneID="IA1-7H-jRe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uT2-Ek-GUN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="globe" catalog="system" id="5Ek-ri-6k7"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="magnifyingglass" catalog="system" id="5Ek-ri-6k7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eDt-ce-pIu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -89,7 +89,7 @@
         <scene sceneID="VyW-XH-Y6i">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="chd-mx-JsI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="house.fill" catalog="system" id="N7K-3y-1zQ"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="house" catalog="system" id="N7K-3y-1zQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WaI-Jq-klJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -108,7 +108,7 @@
         <scene sceneID="W2m-uz-IbM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2ep-hO-cmf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="person.fill" catalog="system" id="I6T-ba-kxa"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="person" catalog="system" id="I6T-ba-kxa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wg5-Vb-esK">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -127,7 +127,7 @@
         <scene sceneID="hR2-qF-M0T">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z3e-Wc-pre" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="bell.fill" catalog="system" id="H3I-iq-eyC"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="heart" catalog="system" id="H3I-iq-eyC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZVb-AK-1qR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -208,10 +208,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell.fill" catalog="system" width="128" height="124"/>
-        <image name="globe" catalog="system" width="128" height="121"/>
-        <image name="house.fill" catalog="system" width="128" height="106"/>
-        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
